@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 700px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    width: 700px;
+    height: 40px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+.header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.mainsection {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.generate, .verify {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nortborder {
+    border-right: none;
+}
+.generate h2, .verify h2{
+    text-align: center;
+    color: #333;
+    padding: 15px;
+}
+.generate form, .verify form {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.generate input, .verify input {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+}
+.generate button, .verify button {
+    width: 100%;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.generated {
+    padding: 8px;
+    color: green;
+}
+.generated a {
+    margin-left: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.width100 {
+    width: 100%;
+}
+.width50 {
+    width: 50%;
+}

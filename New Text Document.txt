@@ -1,0 +1,3 @@
+contract address = 0x779234ca6a31497a63df52c9bf54d96fa4d19242
+
+RPC = https://eth-sepolia.g.alchemy.com/v2/3WeNgwf0CDh79B-OXjpzK-rfKXWuhXpA
